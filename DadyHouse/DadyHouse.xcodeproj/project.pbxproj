@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5542760E1C8ED02800884985 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5542760D1C8ED02800884985 /* AppDelegate.swift */; };
+		554276101C8ED02800884985 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5542760F1C8ED02800884985 /* ViewController.swift */; };
+		554276131C8ED02800884985 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 554276111C8ED02800884985 /* Main.storyboard */; };
+		554276151C8ED02800884985 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 554276141C8ED02800884985 /* Assets.xcassets */; };
+		554276181C8ED02800884985 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 554276161C8ED02800884985 /* LaunchScreen.storyboard */; };
+		554276231C8FAA5B00884985 /* MianViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554276221C8FAA5B00884985 /* MianViewController.swift */; };
+		554276251C8FAA6D00884985 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554276241C8FAA6D00884985 /* RootViewController.swift */; };
+		554276271C8FB78300884985 /* house.png in Resources */ = {isa = PBXBuildFile; fileRef = 554276261C8FB78300884985 /* house.png */; };
+		5542762A1C8FB7F900884985 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554276291C8FB7F900884985 /* ShopViewController.swift */; };
+		5542762C1C8FB8E600884985 /* shopping.png in Resources */ = {isa = PBXBuildFile; fileRef = 5542762B1C8FB8E600884985 /* shopping.png */; };
+		554276301C8FC4AC00884985 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5542762D1C8FC4AC00884985 /* 3.png */; };
+		554276311C8FC4AC00884985 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5542762E1C8FC4AC00884985 /* 2.png */; };
+		554276321C8FC4AC00884985 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5542762F1C8FC4AC00884985 /* 1.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5542760A1C8ED02800884985 /* DadyHouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DadyHouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5542760D1C8ED02800884985 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5542760F1C8ED02800884985 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		554276121C8ED02800884985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		554276141C8ED02800884985 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		554276171C8ED02800884985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		554276191C8ED02800884985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		554276221C8FAA5B00884985 /* MianViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MianViewController.swift; sourceTree = "<group>"; };
+		554276241C8FAA6D00884985 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		554276261C8FB78300884985 /* house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = house.png; sourceTree = "<group>"; };
+		554276291C8FB7F900884985 /* ShopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		5542762B1C8FB8E600884985 /* shopping.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shopping.png; sourceTree = "<group>"; };
+		5542762D1C8FC4AC00884985 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		5542762E1C8FC4AC00884985 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		5542762F1C8FC4AC00884985 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		554276071C8ED02800884985 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		554276011C8ED02700884985 = {
+			isa = PBXGroup;
+			children = (
+				5542760C1C8ED02800884985 /* DadyHouse */,
+				5542760B1C8ED02800884985 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5542760B1C8ED02800884985 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5542760A1C8ED02800884985 /* DadyHouse.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5542760C1C8ED02800884985 /* DadyHouse */ = {
+			isa = PBXGroup;
+			children = (
+				554276281C8FB78700884985 /* i */,
+				5542761F1C8FAA0600884985 /* c */,
+				5542760D1C8ED02800884985 /* AppDelegate.swift */,
+				5542760F1C8ED02800884985 /* ViewController.swift */,
+				554276111C8ED02800884985 /* Main.storyboard */,
+				554276141C8ED02800884985 /* Assets.xcassets */,
+				554276161C8ED02800884985 /* LaunchScreen.storyboard */,
+				554276191C8ED02800884985 /* Info.plist */,
+			);
+			path = DadyHouse;
+			sourceTree = "<group>";
+		};
+		5542761F1C8FAA0600884985 /* c */ = {
+			isa = PBXGroup;
+			children = (
+				554276241C8FAA6D00884985 /* RootViewController.swift */,
+				554276221C8FAA5B00884985 /* MianViewController.swift */,
+				554276291C8FB7F900884985 /* ShopViewController.swift */,
+			);
+			name = c;
+			sourceTree = "<group>";
+		};
+		554276281C8FB78700884985 /* i */ = {
+			isa = PBXGroup;
+			children = (
+				554276261C8FB78300884985 /* house.png */,
+				5542762B1C8FB8E600884985 /* shopping.png */,
+				5542762D1C8FC4AC00884985 /* 3.png */,
+				5542762E1C8FC4AC00884985 /* 2.png */,
+				5542762F1C8FC4AC00884985 /* 1.png */,
+			);
+			name = i;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		554276091C8ED02800884985 /* DadyHouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5542761C1C8ED02800884985 /* Build configuration list for PBXNativeTarget "DadyHouse" */;
+			buildPhases = (
+				554276061C8ED02800884985 /* Sources */,
+				554276071C8ED02800884985 /* Frameworks */,
+				554276081C8ED02800884985 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DadyHouse;
+			productName = DadyHouse;
+			productReference = 5542760A1C8ED02800884985 /* DadyHouse.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		554276021C8ED02700884985 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = newfriend;
+				TargetAttributes = {
+					554276091C8ED02800884985 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 6LF42NLD8V;
+					};
+				};
+			};
+			buildConfigurationList = 554276051C8ED02700884985 /* Build configuration list for PBXProject "DadyHouse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 554276011C8ED02700884985;
+			productRefGroup = 5542760B1C8ED02800884985 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				554276091C8ED02800884985 /* DadyHouse */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		554276081C8ED02800884985 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5542762C1C8FB8E600884985 /* shopping.png in Resources */,
+				554276321C8FC4AC00884985 /* 1.png in Resources */,
+				554276271C8FB78300884985 /* house.png in Resources */,
+				554276311C8FC4AC00884985 /* 2.png in Resources */,
+				554276181C8ED02800884985 /* LaunchScreen.storyboard in Resources */,
+				554276301C8FC4AC00884985 /* 3.png in Resources */,
+				554276151C8ED02800884985 /* Assets.xcassets in Resources */,
+				554276131C8ED02800884985 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		554276061C8ED02800884985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554276101C8ED02800884985 /* ViewController.swift in Sources */,
+				554276231C8FAA5B00884985 /* MianViewController.swift in Sources */,
+				5542762A1C8FB7F900884985 /* ShopViewController.swift in Sources */,
+				554276251C8FAA6D00884985 /* RootViewController.swift in Sources */,
+				5542760E1C8ED02800884985 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		554276111C8ED02800884985 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				554276121C8ED02800884985 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		554276161C8ED02800884985 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				554276171C8ED02800884985 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5542761A1C8ED02800884985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5542761B1C8ED02800884985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5542761D1C8ED02800884985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DadyHouse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DadyHouse.DadyHouse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5542761E1C8ED02800884985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DadyHouse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DadyHouse.DadyHouse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		554276051C8ED02700884985 /* Build configuration list for PBXProject "DadyHouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5542761A1C8ED02800884985 /* Debug */,
+				5542761B1C8ED02800884985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5542761C1C8ED02800884985 /* Build configuration list for PBXNativeTarget "DadyHouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5542761D1C8ED02800884985 /* Debug */,
+				5542761E1C8ED02800884985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 554276021C8ED02700884985 /* Project object */;
+}
